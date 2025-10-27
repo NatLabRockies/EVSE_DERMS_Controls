@@ -20,7 +20,7 @@ A successful API call will return the response 200, so several blocks check for 
 """
 
 class DERMSComms():
-    def __init__(self, ip='http://10.79.142.237:5555/json/reply/ReadApplicationPointWebRequest', username='username', password='password') -> None:
+    def __init__(self, ip='http://127.0.0.1:5555/json/reply/ReadApplicationPointWebRequest', username='username', password='password') -> None:
         self.query_string = ""
         self.derms_api = ip # os.getenv("EGDEV", ip)
         self.derms_user = username #os.getenv("EGUSR", username)
