@@ -1,3 +1,6 @@
+NREL SWR-26-010 "EVSE DERMS Controls"
+Copyright (c) 2025 Alliance for Energy Innovation, LLC
+
 # FUSE_SCM
 An MQTT (Message Queuing Telemetry Transport) and OCPP (Open Charge Point Protocol) based remote smart charging controller framework for AC Electric Vehicle Supply Equipments (EVSEs). The code in this repo allows for NREL controls to interface with the real Distrubeted Energy Resource Managaement System (DERMS) and EVSEs in NRELs ESIF Optimization and Control Laboratory (OCL). Different charge management algorithms can be tested to determine which power allocation method is most effective with the overall goal of demonstrating clear and well documented test results as well as providing functional control algorithms which could be utilized to provide effective smart charge management (SCM) at EV charging stations. Different power allocation methods are programmed in lab_demo_controller.py and include allocation based on first come first served, equal sharing, state of charge (SOC), priority factors, and behind the meter control methods. 
 
